@@ -16,7 +16,7 @@
 /* ...............................................BOX-1-NAVBAR................................................................... */
 .logo{
 
-    background-image:url("/CSS/PROJECT/amazon-logo-editorial-icon-isolated-600nw-2333488123.webp");
+    background-image:url("/CSS/PROJECT/images/amazon-logo-editorial-icon-isolated-600nw-2333488123.webp");
     background-size: cover;
     height: 55px;
     width: 120px;
@@ -105,7 +105,7 @@
     
     height: 16.2px;
     width: 21.6px;
-    background-image: url("/CSS/PROJECT/download.png");
+    background-image: url("/CSS/PROJECT/images/download.png");
     background-size: cover;
     
 }
@@ -162,10 +162,10 @@ span{
 }
 
 @keyframes slideHero {
-    0%  { background-image: url("/CSS/PROJECT/PC_Hero_2x-toys_1._CB582765723_.jpg"); }
-    33%   { background-image: url("/CSS/PROJECT/h1.png"); }
-    63%  { background-image: url("/CSS/PROJECT/PC_PB_Leadup_ASIN_Date._CB801963094_.jpg"); }
-    100%  { background-image: url("/CSS/PROJECT/PC_Hero_1_3000._CB582457311_.jpg"); }
+    0%  { background-image: url("/CSS/PROJECT/images/PC_Hero_2x-toys_1._CB582765723_.jpg"); }
+    33%   { background-image: url("/CSS/PROJECT/images/h1.png"); }
+    63%  { background-image: url("/CSS/PROJECT/images/PC_PB_Leadup_ASIN_Date._CB801963094_.jpg"); }
+    100%  { background-image: url("/CSS/PROJECT/images/PC_Hero_1_3000._CB582457311_.jpg"); }
     
 }
 
@@ -225,25 +225,25 @@ span{
 }
 
 /* Replace these with your own images */
-.ibi1 { background-image: url(/CSS/PROJECT/ibi11.jpg); }
-.ibi2 { background-image: url(/CSS/PROJECT/ibi12.jpg); }
-.ibi3 { background-image: url(/CSS/PROJECT/ibi13.jpg); }
-.ibi4 { background-image: url(/CSS/PROJECT/ibi14.jpg); }
+.ibi1 { background-image: url(/CSS/PROJECT/images/ibi11.jpg); }
+.ibi2 { background-image: url(/CSS/PROJECT/images/ibi12.jpg); }
+.ibi3 { background-image: url(/CSS/PROJECT/images/ibi13.jpg); }
+.ibi4 { background-image: url(/CSS/PROJECT/images/ibi14.jpg); }
 
-.ibi11 { background-image: url(/CSS/PROJECT/refr.jpg); }
-.ibi21{ background-image: url(/CSS/PROJECT/microwave.jpg); }
-.ibi31 { background-image: url(/CSS/PROJECT/wm.jpg); }
-.ibi41 { background-image: url(/CSS/PROJECT/ac.jpg); }
+.ibi11 { background-image: url(/CSS/PROJECT/images/refr.jpg); }
+.ibi21{ background-image: url(/CSS/PROJECT/images/microwave.jpg); }
+.ibi31 { background-image: url(/CSS/PROJECT/images/wm.jpg); }
+.ibi41 { background-image: url(/CSS/PROJECT/images/ac.jpg); }
 
-.ibi1c { background-image: url(/CSS/PROJECT/12.jpg); }
-.ibi2c{ background-image: url(/CSS/PROJECT/22.jpg); }
-.ibi3c{ background-image: url(/CSS/PROJECT/32.jpg); }
-.ibi4c{ background-image: url(/CSS/PROJECT/42.jpg); }
+.ibi1c { background-image: url(/CSS/PROJECT/images/12.jpg); }
+.ibi2c{ background-image: url(/CSS/PROJECT/images/22.jpg); }
+.ibi3c{ background-image: url(/CSS/PROJECT/images/32.jpg); }
+.ibi4c{ background-image: url(/CSS/PROJECT/images/42.jpg); }
 
-.ibi1d { background-image: url(/CSS/PROJECT/a.jpg); }
-.ibi2d { background-image: url(/CSS/PROJECT/b.jpg); }
-.ibi3d { background-image: url(/CSS/PROJECT/c.jpg); }
-.ibi4d { background-image: url(/CSS/PROJECT/d.jpg); }
+.ibi1d { background-image: url(/CSS/PROJECT/images/a.jpg); }
+.ibi2d { background-image: url(/CSS/PROJECT/images/b.jpg); }
+.ibi3d { background-image: url(/CSS/PROJECT/images/c.jpg); }
+.ibi4d { background-image: url(/CSS/PROJECT/images/d.jpg); }
 
 /* Explore link */
 .images-below-image1 a {
@@ -291,10 +291,10 @@ span{
 }
 
 /* Replace these with your real image URLs */
-.oi1 { background-image: url(/CSS/PROJECT/x44.jpg); }
-.oi2 { background-image: url(/CSS/PROJECT/x22.jpg); }
-.oi3 { background-image: url(/CSS/PROJECT/x3.jpg); }
-.oi4 { background-image: url(/CSS/PROJECT/x4.jpg); }
+.oi1 { background-image: url(/CSS/PROJECT/images/x44.jpg); }
+.oi2 { background-image: url(/CSS/PROJECT/images/x22.jpg); }
+.oi3 { background-image: url(/CSS/PROJECT/images/x3.jpg); }
+.oi4 { background-image: url(/CSS/PROJECT/images/x4.jpg); }
 
 .offer-link {
     display: inline-block;
