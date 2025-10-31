@@ -1,0 +1,527 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* ...............................................BOX-1-NAVBAR................................................................... */
+.logo{
+
+    background-image:url("/CSS/PROJECT/amazon-logo-editorial-icon-isolated-600nw-2333488123.webp");
+    background-size: cover;
+    height: 55px;
+    width: 120px;
+    font-size: 1.4rem;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+
+/* ...............................................BOX-2-NAVBAR................................................................... */
+.add-icon{
+    display: flex;
+    align-items:center;
+
+}    
+.addd-first{
+    color: #cccccc;
+    font-size:0.85rem;
+    margin-right: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+/* ...............................................BOX-3-NAVBAR................................................................... */
+.box3{
+    display: flex;
+    background-color: pink;
+    width: 680px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly ;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+.search-amazon{
+    background-color: #f3f3f3;
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+
+}
+.search-icon{
+    background-color: #febd69;
+    width: 45px;
+    height: 40px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+    border: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    
+
+}
+.search-amazon :hover{
+    border: 2px solid #f3f3f3;}
+/* ...............................................BOX-4-NAVBAR................................................................... */
+
+.box4{
+    display: flex;
+    width: 45px;
+    height: 40px;
+    justify-content: center;
+
+}
+.select-language{
+   height: 16.2px;
+    width: 21.6px;
+}
+.country-flag{
+    
+    height: 16.2px;
+    width: 21.6px;
+    background-image: url("/CSS/PROJECT/download.png");
+    background-size: cover;
+    
+}
+/* ...............................................BOX-5-NAVBAR................................................................... */
+.box5{
+
+}
+span{
+    font-size: 0.7rem;
+
+}
+.nav-sec{
+    font-size: 0.85rem;
+    font-weight: 700;
+
+}
+
+
+/* ...............................................BOX-6-NAVBAR................................................................... */
+ .box7 i {
+    font-size: 30px;
+ }
+ .box7{
+    font-size: 0.85rem;
+ }
+
+ /* ..!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!.............navbar completed..............!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!........ */
+
+ /* ..............................................below-NAVBAR................................................................... */
+
+ .nav-below-nav{
+    height: 40px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: small;
+    font-weight: 400;
+
+ }
+/* ..!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!.............below-navbar completed..............!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!........ */
+
+/* ..............................................Hero image and below hero image .................................................................. */
+/* Sliding Hero Image */
+.hero-image {
+    width: 100%;
+    height: 580px;
+    background-size: cover;
+    background-position: center;
+    animation: slideHero 12s infinite steps(1);
+    position: relative;
+    z-index: 0;
+}
+
+@keyframes slideHero {
+    0%  { background-image: url("/CSS/PROJECT/PC_Hero_2x-toys_1._CB582765723_.jpg"); }
+    33%   { background-image: url("/CSS/PROJECT/h1.png"); }
+    63%  { background-image: url("/CSS/PROJECT/PC_PB_Leadup_ASIN_Date._CB801963094_.jpg"); }
+    100%  { background-image: url("/CSS/PROJECT/PC_Hero_1_3000._CB582457311_.jpg"); }
+    
+}
+
+/* Boxes Container */
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: -200px; /* overlap with hero */
+    position: relative;
+    z-index: 1;
+}
+
+/* Individual White Boxes */
+.images-below-image1 {
+    width: 23%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.images-below-image1 p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Grid layout 2x2 */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+/* Small image + text container */
+.img-box {
+    text-align: center;
+}
+
+/* Small images */
+.img-box div {
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+}
+
+/* Image labels */
+.img-box span {
+    display: block;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+/* Replace these with your own images */
+.ibi1 { background-image: url(/CSS/PROJECT/ibi11.jpg); }
+.ibi2 { background-image: url(/CSS/PROJECT/ibi12.jpg); }
+.ibi3 { background-image: url(/CSS/PROJECT/ibi13.jpg); }
+.ibi4 { background-image: url(/CSS/PROJECT/ibi14.jpg); }
+
+.ibi11 { background-image: url(/CSS/PROJECT/refr.jpg); }
+.ibi21{ background-image: url(/CSS/PROJECT/microwave.jpg); }
+.ibi31 { background-image: url(/CSS/PROJECT/wm.jpg); }
+.ibi41 { background-image: url(/CSS/PROJECT/ac.jpg); }
+
+.ibi1c { background-image: url(/CSS/PROJECT/12.jpg); }
+.ibi2c{ background-image: url(/CSS/PROJECT/22.jpg); }
+.ibi3c{ background-image: url(/CSS/PROJECT/32.jpg); }
+.ibi4c{ background-image: url(/CSS/PROJECT/42.jpg); }
+
+.ibi1d { background-image: url(/CSS/PROJECT/a.jpg); }
+.ibi2d { background-image: url(/CSS/PROJECT/b.jpg); }
+.ibi3d { background-image: url(/CSS/PROJECT/c.jpg); }
+.ibi4d { background-image: url(/CSS/PROJECT/d.jpg); }
+
+/* Explore link */
+.images-below-image1 a {
+    display: inline-block;
+    margin-top: 12px;
+    color: #007185;
+    text-decoration: none;
+    font-weight: bold;
+}
+.images-below-image1 a:hover {
+    color: #c7511f;
+}
+
+/* ..!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!.............below hero image and hero image completed..............!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!........ *
+
+
+/* Offer Section */
+.offer-section {
+    background-color: white;
+    width: 95%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.offer-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.offer-images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.offer-img {
+    width: 23%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+}
+
+/* Replace these with your real image URLs */
+.oi1 { background-image: url(/CSS/PROJECT/x44.jpg); }
+.oi2 { background-image: url(/CSS/PROJECT/x22.jpg); }
+.oi3 { background-image: url(/CSS/PROJECT/x3.jpg); }
+.oi4 { background-image: url(/CSS/PROJECT/x4.jpg); }
+
+.offer-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #007185;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.offer-link:hover {
+    color: #c7511f;
+}
+/* ..!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!.............horizontal offers box completed..............!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!........ *
+
+
+/* Personalized Recommendations Section */
+.recommend-section {
+    background-color: white;
+    width: 95%;
+    margin: 20px auto;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    height: 150px; /* half height compared to previous section */
+}
+
+.recommend-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.signin-btn {
+    background-color: #FFD814;
+    border: 1px solid #FCD200;
+    border-radius: 8px;
+    padding: 10px 70px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.signin-btn:hover {
+    background-color: #F7CA00;
+}
+
+.new-customer {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.new-customer a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.new-customer a:hover {
+    color: #c7511f;
+}
+/* ..!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!.............sign in horizontal box completed..............!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!........ */
+/* ...............FOOTER.............!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!........ */
+/* .....................back to top option.......... */
+.back-to-top {
+  display: block;
+  text-align: center;
+  background-color: #37475a; /* Amazon-like color */
+  color: white;
+  padding: 15px 0;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.back-to-top:hover {
+  background-color: #485769;
+}
+
+/* .......................footer............................ */
+
+.footerr {
+  display: flex;
+  justify-content: space-around;
+  background-color: #232f3e;
+  color: white;
+  padding: 40px 0;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-column h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer-column a {
+  color: #ddd;
+  text-decoration: none;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+/* ..............................footer-lasts second div.................................... */
+
+.footer-bottom {
+  background-color: #232f3e;
+  border-top: 1px solid #3a4553;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.footer-logo {
+  width: 100px;
+  cursor: pointer;
+}
+
+.footer-options {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.language-option select {
+  background-color: #232f3e;
+  color: white;
+  border: 1px solid #848688;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.language-option select:focus {
+  outline: none;
+}
+
+.flag-icon {
+  width: 24px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.country-option {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+}
+/* ................................last div in footer.................... */
+
+
+
+
+
+.footer-last {
+  background-color: #131a22;
+  color: #ddd;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+/* upper link section */
+.footer-last-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 25px;
+}
+
+.footer-last-links a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 1.5;
+  width: 150px;
+  transition: color 0.3s;
+}
+
+.footer-last-links a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* bottom small link row */
+.footer-last-bottom {
+  border-top: 1px solid #3a3a3a;
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+.footer-last-bottom a {
+  color: #ccc;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-last-bottom a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer-last-bottom p {
+  color: #999;
+  margin-top: 10px;
+}
+
+/* responsive fix */
+@media (max-width: 700px) {
+  .footer-last-links {
+    gap: 25px;
+  }
+  .footer-last-links a {
+    width: 45%;
+  }
+}
+
+
+
